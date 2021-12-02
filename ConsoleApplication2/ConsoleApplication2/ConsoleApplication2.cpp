@@ -10,12 +10,12 @@ public:
 	long double FactorialCalculator(int);
 };
 
-long double Factorial::FactorialCalculator(int n) {
+long double Factorial::FactorialCalculator(int number) {
 	long double factorial = 1.0;
-	if (n < 0)
+	if (number < 0)
 		cout << "Error! Factorial of a negative number doesn't exist.";
 	else {
-		for (int i = 1; i <= n; ++i) {
+		for (int i = 1; i <= number; ++i) {
 			factorial *= i;
 		}
 	}
