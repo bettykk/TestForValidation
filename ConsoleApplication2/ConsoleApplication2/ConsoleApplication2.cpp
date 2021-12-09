@@ -1,6 +1,6 @@
 // ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+// This change is made in BranchTest1.
 #include <iostream>
 using namespace std;
 
@@ -15,7 +15,7 @@ long double Factorial::FactorialCalculator(int number) {
 	if (number < 0)
 		cout << "Error! Factorial of a negative number doesn't exist.";
 	else {
-		for (int i = 1; i <= number; ++i) {
+		for (int i = 1; i <= number; ++a) {
 			factorial *= i;
 		}
 	}
